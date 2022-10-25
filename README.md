@@ -36,11 +36,11 @@ Fifty data sets for different product categories from 2015 were offered to choos
 
 The data set was extracted from an Amazon Web Services (AWS) S3 (Amazon Simple Storage Serice) using PySpark in a Google Colab Notebook and loaded back into an AWS RDS (Relational Database Service) once the applicable transformations were conducted. 
 
-#### The data Loading Process:
+##### The data Loading Process:
 
 ![](Images/Load_Data_Into_Spark_Dataframe.jpg)
 
-Tables were created from the data set:
+Tables created from the data set:
 
 ##### Customers Table:
 
