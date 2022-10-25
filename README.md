@@ -2,9 +2,9 @@
  
 ## ETL and meta-analysis of Amazon Vine reviews with AWS, PostgreSQL, PySpark and Google Collab Notebook. 
 
-PIC
+![](Images/toy_shopping_pic.jpg)
 
-““Learning to choose is hard. Learning to choose well is harder. And learning to choose well in a world of unlimited possibilities is harder still, perhaps too hard.”
+“Learning to choose is hard. Learning to choose well is harder. And learning to choose well in a world of unlimited possibilities is harder still, perhaps too hard.”
 ― Barry Schwartz, The Paradox of Choice: Why More Is Less
 
 ### Project Overview
@@ -21,7 +21,7 @@ Fifty data sets for different product categories from 2015 were offered to choos
 
 #### Data
 
-* s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Toys_v1_00.tsv.g
+* s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Toys_v1_00.tsv.gz
 
 #### Software
 
@@ -34,6 +34,33 @@ Fifty data sets for different product categories from 2015 were offered to choos
 
 ### ETL Process
 
+The data set loaded into a Spark data frame:
+
+![](Images/Load_Data_Into_Spark_Dataframe.jpg)
+
+Tables were created from the data set:
+
+![](Images/Create_customers_dataframe.jpg)
+
+![](Images/Create_products_dataframe.jpg)
+
+![](Images/create_review_ID_dataframe.jpg)
+
+![](Images/Create_vine_table_dataframe.jpg)
+
+The tables were written into dataframes in PostgreSQL:
+
+![](Images/Write_In_dataframes.jpg)
+
+Using pgAdmin, the data tables exported from Google Collab are presented as follows:
+
+![](Images/pgadmin_customertable.jpg)
+
+![](Images/pgadmin_products_table.jpg)
+
+![](Images/pgadmin_reviewid_table.jpg)
+
+![](Images/pgadmin_vine_table.jpg)
 
 ### Amazon Vine Analysis
 
@@ -41,25 +68,35 @@ The data was filtered to show those that had more than twenty votes and were ove
 
 * Out of a total of 63,270 reviews in the entire dataset, 62,004 reviews (97.9%) were unpaid, and 1,266 reviews were paid (2.0%).
 
-PIC
+![](Images/total_vine_reviews.jpg)
+
+![](Images/total_unpaid_review_vine.jpg)
+
+![](Images/total_paid_review_vine.jpg)
 
 * Out of a total of 30,397 five-star reviews, 29,965 (98.5%) were unpaid, while only 432 (1.4%) were submitted by paid reviewers.
 
-PIC
+![](Images/total_fivestar_vine.jpg)
+
+![](Images/total_fivestar_paid_vine.jpg)
+
+![](Images/fivestarunpaidreviews.jpg)
 
 * Five star paid reviews as percent of total paid reviews – 34.12%. 
 
-PIC 
+![](Images/fivestar_paid_percent_tototal_vine.jpg)
 
 * Paid reviews as percent of total five star reviews -  1.42%
 
-PIC 
+![](Images/paid_aspercentof_2.jpg)
 
 * Five star unpaid reviews as percent of total unpaid reviews – 48.32%
 
-PIC
+![](Images/paid_as_percent_of.jpg)
 
 * Five star unpaid reviews as percent of total five star reviews – 98.58%
+
+![](Images/paidaspercent3.jpg)
 
 ### Conclusion
 
@@ -67,4 +104,4 @@ Most of the reviews analyzed were submitted by unpaid participants, making up 98
 
 The final analysis infers that there is not a strong bias towards five-star reviews from the paid Amazon Vine reviewers versus from the unpaid Amazon reviewers. Amazon Vine reviewers are assumingly more critical submitting their reviews, as seen by the low percentage (34.12%) of five-star reviews analyzed in this project. 
 
-To further this analysis, it would be beneficial to study the statistical distribution (mean, median and mode) of the star ratings from the paid Vine reviewers and unpaid reviewers using the full data set as well as the filtered data set.
+To further this analysis, it would be beneficial to study the statistical distribution (mean, median and mode) of the star ratings from the paid Vine reviewers and unpaid reviewers using the full data set as well as the filtered data set.Alternatively, it would be interesting to conduct a similar study using the lowest reviews from both paid and unpaid reviewers as well. 
