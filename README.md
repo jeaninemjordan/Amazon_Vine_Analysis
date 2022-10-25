@@ -1,6 +1,6 @@
 # Amazon_Vine_Analysis
  
-## ETL and meta-analysis of Amazon Vine reviews with AWS, PostgreSQL, PySpark and Google Collab Notebook. 
+## ETL and meta-analysis of Amazon Vine reviews with AWS, PostgreSQL, PySpark and Google Colab Notebook. 
 
 ![](Images/toy_shopping_pic.jpg)
 
