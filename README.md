@@ -13,7 +13,7 @@ Customer feedback does not just benefit the shoppers looking for the perfect pro
 
 Amazon has more than two hundred million monthly visitors in the U.S., accounting for more than 37% of all online retail sales in the U.S. and accounting for over $385 billion dollars in net sales yearly. As the company continues to grow rapidly, customers increasingly make their purchase decisions with assistance from Amazon customer reviews. 
 
-The purpose of this project was to conduct a meta-analysis of Amazon reviews and analyze the reviews as part of the Amazon Vine program, where select members of Amazon’s reviewing community are compensated to review sample products. In this analysis, the possibility of bias towards favorable reviews from the paid Vine members in the available data is analyzed. 
+The purpose of this project was to conduct a meta-analysis of Amazon reviews and analyze the reviews against those submitted through the Amazon Vine program, where select members of Amazon’s reviewing community are compensated for reviewing sample products. In this analysis, the possibility of bias towards favorable reviews from the paid Vine members in the available data is analyzed. 
 
 Fifty data sets for different product categories from 2015 were offered to choose from for this project. In this analysis, the children’s’ toys category was selected. The initial cleaning and transforming of the data set was conducted using AWS, PostgreSQL, pgAdmin, and PySpark in Google Colab Notebook. The data analysis segment was conducted using PySpark and Google Colab Notebook.
 
