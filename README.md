@@ -62,7 +62,7 @@ The extracted data set was written into DataFrames:
 
 ![](Images/Write_In_dataframes.jpg)
 
-The DataFrames were loaded into their respective tables using pgAdmin:
+The DataFrames were loaded into their respective tables using pgAdmin and PostgreSQL:
 
 ##### Customer Table:
 
