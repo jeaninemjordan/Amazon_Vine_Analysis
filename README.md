@@ -34,7 +34,7 @@ Fifty data sets for different product categories from 2015 were offered to choos
 
 ### ETL Process
 
-The data set was extracted from an Amazon Web Services (AWS) S3 (Amazon Simple Storage Serice) using PySpark and loaded back into an AWS RDS (Relational Database Service) once the applicable transformations were conducted. 
+The data set was extracted from an Amazon Web Services (AWS) S3 (Amazon Simple Storage Serice) using PySpark in a Google Colab Notebook and loaded back into an AWS RDS (Relational Database Service) once the applicable transformations were conducted. 
 
 ![](Images/Load_Data_Into_Spark_Dataframe.jpg)
 
