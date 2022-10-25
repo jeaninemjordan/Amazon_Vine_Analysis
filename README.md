@@ -116,8 +116,8 @@ The data was filtered to show those that had more than twenty votes and were ove
 
 ### Conclusion
 
-Most of the reviews analyzed were submitted by unpaid participants, making up 98.5% percent of the data reviewed. Paid reviews only made up for 1.42% of the total five-star reviews analyzed, while paid five-star reviews made up for 34.12% of the 1.42% paid reviews analyzed. 
+Most of the reviews analyzed were submitted by unpaid participants, making up 98.5% percent of the data reviewed. Paid reviews only made up for 1.42% of the total five-star reviews analyzed, while paid five-star reviews made up for just 34.12% of the 1.42% those paid reviews analyzed. 
 
-The final analysis infers that there is not a strong bias towards five-star reviews from the paid Amazon Vine reviewers versus from the unpaid Amazon reviewers. Amazon Vine reviewers are assumingly more critical submitting their reviews, as seen by the low percentage (34.12%) of five-star reviews analyzed in this project. 
+The final analysis infers that there is not a strong bias towards five-star reviews from the paid Amazon Vine reviewers versus from the unpaid Amazon reviewers. Observing this data, Amazon Vine reviewers are seemingly more critical in submitting their reviews, as seen by the low percentage (34.12%) of five-star ratings analyzed in this project. 
 
-To further this analysis, it would be beneficial to study the statistical distribution (mean, median and mode) of the star ratings from the paid Vine reviewers and unpaid reviewers using the full data set as well as the filtered data set.Alternatively, it would be interesting to conduct a similar study using the lowest reviews from both paid and unpaid reviewers as well. 
+To further this analysis, it would be beneficial to study the statistical distribution (mean, median and mode) of the star ratings from the paid Vine reviewers and unpaid reviewers using the full data set as well as the filtered data set. Alternatively, it would be interesting to conduct a similar study using the lowest reviews from both paid and unpaid reviewers as well. 
