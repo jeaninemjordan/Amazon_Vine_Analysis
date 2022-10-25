@@ -15,7 +15,7 @@ Amazon has more than two hundred million monthly visitors in the U.S., accountin
 
 The purpose of this project was to conduct a meta-analysis of Amazon reviews and analyze the reviews as part of the Amazon Vine program, where select members of Amazon’s reviewing community are compensated to review sample products. In this analysis, the possibility of bias towards favorable reviews from the paid Vine members in the available data is analyzed. 
 
-Fifty data sets for different product categories from 2015 were offered to choose from for this project. In this analysis, the children’s’ toys category was selected. The initial cleaning and transforming of the data set was conducted using AWS, PostgreSQL, pgAdmin, and PySpark in Google Collab. The data analysis segment was conducted using PySpark and Google Collab.
+Fifty data sets for different product categories from 2015 were offered to choose from for this project. In this analysis, the children’s’ toys category was selected. The initial cleaning and transforming of the data set was conducted using AWS, PostgreSQL, pgAdmin, and PySpark in Google Colab Notebook. The data analysis segment was conducted using PySpark and Google Colab Notebook.
 
 ### Resources
 
@@ -26,7 +26,7 @@ Fifty data sets for different product categories from 2015 were offered to choos
 #### Software
 
 * Amazon Web Services: RDS, S3
-* Google Collab
+* Google Colab Notebook
 * pgAdmin 6.8
 * PostgreSQL 13.7
 * PySpark 3.2.2
@@ -40,25 +40,41 @@ The data set loaded into a Spark data frame:
 
 Tables were created from the data set:
 
+##### Customers Table:
+
 ![](Images/Create_customers_dataframe.jpg)
+
+##### Products Table:
 
 ![](Images/Create_products_dataframe.jpg)
 
+##### Review ID Table:
+
 ![](Images/create_review_ID_dataframe.jpg)
+
+##### Vine table:
 
 ![](Images/Create_vine_table_dataframe.jpg)
 
-The tables were written into dataframes in PostgreSQL:
+The extracted data set was written into DataFrames:
 
 ![](Images/Write_In_dataframes.jpg)
 
-Using pgAdmin, the data tables exported from Google Collab are presented as follows:
+The DataFrames were loaded into their respective tables using pgAdmin:
+
+##### Customer Table:
 
 ![](Images/pgadmin_customertable.jpg)
 
+##### Products Table:
+
 ![](Images/pgadmin_products_table.jpg)
 
+##### Review ID Table:
+
 ![](Images/pgadmin_reviewid_table.jpg)
+
+##### Vine Table:
 
 ![](Images/pgadmin_vine_table.jpg)
 
