@@ -123,3 +123,16 @@ Most of the reviews analyzed were submitted by unpaid participants, making up 98
 The final analysis infers that there is not an obvious bias towards five-star reviews from the paid Amazon Vine reviewers versus from the unpaid Amazon reviewers. Observing this data, Amazon Vine reviewers are seemingly more critical in submitting their reviews, as seen by the low percentage (34.12%) of paid five-star ratings out of the total paid reviews catergory. Conversely, unpaid five-star reviews made up for almost half (48.32%) of the total of unpaid reviews submitted, suggesting that unpaid reviwers are more likely to submit higher reviews. 
 
 To further this analysis, it would be insightful to study the statistical distribution (mean, median and mode) of the star ratings from the paid Vine reviewers and unpaid reviewers using the full data set as well as the filtered data set. Alternatively, it would be interesting to conduct a similar study using the lowest reviews from both paid and unpaid reviewers as well. 
+
+### Additional Analysis
+
+Additional analysis was conducted to determine what the top rated toys were from the data set. The data was filtered to only show products with more than 2000 five star reviews that were rated as being 90% or more helpful. Out of these results, the item with the most numerous reviews in all filtered catergories is Cards Against Humanity. 
+
+The process to obtain these results is outlined below in screenshots:
+
+![](Images/createnewdf.jpg)
+![](Images/filtermorethan2000.jpg)
+![](Images/filtermorethan90percent.jpg)
+![](Images/filterfivestar.jpg)
+![](Images/writeintable.jpg)
+![](Images/fivestartoptoys.jpg)
