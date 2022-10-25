@@ -126,7 +126,7 @@ To further this analysis, it would be insightful to study the statistical distri
 
 ### Additional Analysis
 
-Additional analysis was conducted to determine what the top rated toys were from the data set. The data was filtered to only show products with more than 2000 five star reviews that were rated as being 90% or more helpful. Out of these results, only 16 products met the filtered criteria and the item with the most numerous reviews in all catergories is Cards Against Humanity. 
+Additional analysis was conducted to determine what the top rated toys were from the data set. The data was filtered to only show products with more than 2000 five star reviews that were rated as being 90% or more helpful. Out of these results, only 16 products met the filtered criteria and the item with the most numerous reviews in all catergories was found to be the Cards Against Humanity game. 
 
 The process to obtain these results is outlined below in screenshots:
 
